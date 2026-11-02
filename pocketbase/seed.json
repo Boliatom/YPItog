@@ -1,0 +1,3461 @@
+{
+  "service_categories": [
+    {
+      "id": "cat000000000001",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Парикмахерские услуги",
+      "description": "Стрижки, окрашивание и укладки"
+    },
+    {
+      "id": "cat000000000002",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Маникюр и педикюр",
+      "description": "Уход за руками и ногами, покрытие гель-лаком"
+    },
+    {
+      "id": "cat000000000003",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Косметология",
+      "description": "Чистка, пилинг и уходовые процедуры для лица"
+    },
+    {
+      "id": "cat000000000004",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Брови и ресницы",
+      "description": "Коррекция и окрашивание бровей, ламинирование"
+    },
+    {
+      "id": "cat000000000005",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Массаж и СПА",
+      "description": "Расслабляющий и лечебный массаж"
+    }
+  ],
+  "services": [
+    {
+      "id": "srv000000000001",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Женская стрижка",
+      "category": "cat000000000001",
+      "durationMin": 60,
+      "price": 1800,
+      "description": "",
+      "active": true
+    },
+    {
+      "id": "srv000000000002",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Мужская стрижка",
+      "category": "cat000000000001",
+      "durationMin": 45,
+      "price": 1200,
+      "description": "",
+      "active": true
+    },
+    {
+      "id": "srv000000000003",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Окрашивание в один тон",
+      "category": "cat000000000001",
+      "durationMin": 120,
+      "price": 4500,
+      "description": "",
+      "active": true
+    },
+    {
+      "id": "srv000000000004",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Сложное окрашивание",
+      "category": "cat000000000001",
+      "durationMin": 180,
+      "price": 7500,
+      "description": "",
+      "active": true
+    },
+    {
+      "id": "srv000000000005",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Укладка",
+      "category": "cat000000000001",
+      "durationMin": 45,
+      "price": 1500,
+      "description": "",
+      "active": true
+    },
+    {
+      "id": "srv000000000006",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Маникюр классический",
+      "category": "cat000000000002",
+      "durationMin": 60,
+      "price": 1300,
+      "description": "",
+      "active": true
+    },
+    {
+      "id": "srv000000000007",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Маникюр с покрытием гель-лак",
+      "category": "cat000000000002",
+      "durationMin": 90,
+      "price": 2200,
+      "description": "",
+      "active": true
+    },
+    {
+      "id": "srv000000000008",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Педикюр",
+      "category": "cat000000000002",
+      "durationMin": 90,
+      "price": 2500,
+      "description": "",
+      "active": true
+    },
+    {
+      "id": "srv000000000009",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Наращивание ногтей",
+      "category": "cat000000000002",
+      "durationMin": 150,
+      "price": 3800,
+      "description": "",
+      "active": true
+    },
+    {
+      "id": "srv000000000010",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Чистка лица",
+      "category": "cat000000000003",
+      "durationMin": 75,
+      "price": 3200,
+      "description": "",
+      "active": true
+    },
+    {
+      "id": "srv000000000011",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Химический пилинг",
+      "category": "cat000000000003",
+      "durationMin": 60,
+      "price": 3600,
+      "description": "",
+      "active": true
+    },
+    {
+      "id": "srv000000000012",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Уход с маской",
+      "category": "cat000000000003",
+      "durationMin": 45,
+      "price": 2400,
+      "description": "",
+      "active": true
+    },
+    {
+      "id": "srv000000000013",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Коррекция бровей",
+      "category": "cat000000000004",
+      "durationMin": 30,
+      "price": 900,
+      "description": "",
+      "active": true
+    },
+    {
+      "id": "srv000000000014",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Окрашивание бровей",
+      "category": "cat000000000004",
+      "durationMin": 40,
+      "price": 1100,
+      "description": "",
+      "active": true
+    },
+    {
+      "id": "srv000000000015",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Ламинирование ресниц",
+      "category": "cat000000000004",
+      "durationMin": 60,
+      "price": 2800,
+      "description": "",
+      "active": true
+    },
+    {
+      "id": "srv000000000016",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Классический массаж спины",
+      "category": "cat000000000005",
+      "durationMin": 45,
+      "price": 2000,
+      "description": "",
+      "active": true
+    },
+    {
+      "id": "srv000000000017",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Массаж всего тела",
+      "category": "cat000000000005",
+      "durationMin": 90,
+      "price": 4200,
+      "description": "",
+      "active": true
+    },
+    {
+      "id": "srv000000000018",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "name": "Антицеллюлитный массаж",
+      "category": "cat000000000005",
+      "durationMin": 60,
+      "price": 3000,
+      "description": "",
+      "active": true
+    }
+  ],
+  "masters": [
+    {
+      "id": "mst000000000001",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "fullName": "Орлова Екатерина Андреевна",
+      "position": "hairdresser",
+      "phone": "+7 900 111-22-01",
+      "experienceYears": 9,
+      "services": [
+        "srv000000000001",
+        "srv000000000002",
+        "srv000000000003",
+        "srv000000000004",
+        "srv000000000005"
+      ],
+      "bio": ""
+    },
+    {
+      "id": "mst000000000002",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "fullName": "Беляев Дмитрий Олегович",
+      "position": "hairdresser",
+      "phone": "+7 900 111-22-02",
+      "experienceYears": 6,
+      "services": [
+        "srv000000000001",
+        "srv000000000002",
+        "srv000000000005"
+      ],
+      "bio": ""
+    },
+    {
+      "id": "mst000000000003",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "fullName": "Смирнова Алина Игоревна",
+      "position": "nails",
+      "phone": "+7 900 111-22-03",
+      "experienceYears": 5,
+      "services": [
+        "srv000000000006",
+        "srv000000000007",
+        "srv000000000008",
+        "srv000000000009"
+      ],
+      "bio": ""
+    },
+    {
+      "id": "mst000000000004",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "fullName": "Громова Ольга Павловна",
+      "position": "cosmetologist",
+      "phone": "+7 900 111-22-04",
+      "experienceYears": 12,
+      "services": [
+        "srv000000000010",
+        "srv000000000011",
+        "srv000000000012"
+      ],
+      "bio": ""
+    },
+    {
+      "id": "mst000000000005",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "fullName": "Лебедева Мария Сергеевна",
+      "position": "brows",
+      "phone": "+7 900 111-22-05",
+      "experienceYears": 4,
+      "services": [
+        "srv000000000013",
+        "srv000000000014",
+        "srv000000000015"
+      ],
+      "bio": ""
+    },
+    {
+      "id": "mst000000000006",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "fullName": "Новиков Артём Викторович",
+      "position": "massage",
+      "phone": "+7 900 111-22-06",
+      "experienceYears": 8,
+      "services": [
+        "srv000000000016",
+        "srv000000000017",
+        "srv000000000018"
+      ],
+      "bio": ""
+    }
+  ],
+  "clients": [
+    {
+      "id": "cli000000000001",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "fullName": "Иванова Анна Сергеевна",
+      "phone": "+7 911 200-10-01",
+      "email": "client@salon.ru",
+      "birthDate": "1985-01-05T00:00:00.000Z",
+      "notes": ""
+    },
+    {
+      "id": "cli000000000002",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "fullName": "Петрова Юлия Николаевна",
+      "phone": "+7 911 200-10-02",
+      "email": "petrova@mail.ru",
+      "birthDate": "1986-02-06T00:00:00.000Z",
+      "notes": ""
+    },
+    {
+      "id": "cli000000000003",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "fullName": "Сидорова Наталья Ивановна",
+      "phone": "+7 911 200-10-03",
+      "email": "sidorova@mail.ru",
+      "birthDate": "1987-03-07T00:00:00.000Z",
+      "notes": ""
+    },
+    {
+      "id": "cli000000000004",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "fullName": "Кузнецова Ирина Алексеевна",
+      "phone": "+7 911 200-10-04",
+      "email": "kuznecova@mail.ru",
+      "birthDate": "1988-04-08T00:00:00.000Z",
+      "notes": ""
+    },
+    {
+      "id": "cli000000000005",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "fullName": "Морозова Елена Дмитриевна",
+      "phone": "+7 911 200-10-05",
+      "email": "morozova@mail.ru",
+      "birthDate": "1989-05-09T00:00:00.000Z",
+      "notes": ""
+    },
+    {
+      "id": "cli000000000006",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "fullName": "Волкова Светлана Андреевна",
+      "phone": "+7 911 200-10-06",
+      "email": "volkova@mail.ru",
+      "birthDate": "1990-06-10T00:00:00.000Z",
+      "notes": ""
+    },
+    {
+      "id": "cli000000000007",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "fullName": "Соколова Дарья Павловна",
+      "phone": "+7 911 200-10-07",
+      "email": "sokolova@mail.ru",
+      "birthDate": "1991-07-11T00:00:00.000Z",
+      "notes": ""
+    },
+    {
+      "id": "cli000000000008",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "fullName": "Попов Андрей Сергеевич",
+      "phone": "+7 911 200-10-08",
+      "email": "popov@mail.ru",
+      "birthDate": "1992-08-12T00:00:00.000Z",
+      "notes": ""
+    },
+    {
+      "id": "cli000000000009",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "fullName": "Михайлова Виктория Олеговна",
+      "phone": "+7 911 200-10-09",
+      "email": "mihaylova@mail.ru",
+      "birthDate": "1993-09-13T00:00:00.000Z",
+      "notes": ""
+    },
+    {
+      "id": "cli000000000010",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "fullName": "Фёдорова Алёна Викторовна",
+      "phone": "+7 911 200-10-10",
+      "email": "fedorova@mail.ru",
+      "birthDate": "1994-10-14T00:00:00.000Z",
+      "notes": ""
+    }
+  ],
+  "client_cards": [
+    {
+      "id": "crd000000000001",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "number": "BS-100001",
+      "client": "cli000000000001",
+      "discountPercent": 10,
+      "bonusPoints": 420,
+      "issuedAt": "2026-09-13T00:00:00.000Z"
+    },
+    {
+      "id": "crd000000000002",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "number": "BS-100002",
+      "client": "cli000000000002",
+      "discountPercent": 5,
+      "bonusPoints": 180,
+      "issuedAt": "2026-09-16T00:00:00.000Z"
+    },
+    {
+      "id": "crd000000000003",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "number": "BS-100003",
+      "client": "cli000000000003",
+      "discountPercent": 15,
+      "bonusPoints": 760,
+      "issuedAt": "2026-09-19T00:00:00.000Z"
+    },
+    {
+      "id": "crd000000000004",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "number": "BS-100004",
+      "client": "cli000000000004",
+      "discountPercent": 0,
+      "bonusPoints": 0,
+      "issuedAt": "2026-09-22T00:00:00.000Z"
+    },
+    {
+      "id": "crd000000000005",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "number": "BS-100005",
+      "client": "cli000000000005",
+      "discountPercent": 5,
+      "bonusPoints": 90,
+      "issuedAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "crd000000000006",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "number": "BS-100006",
+      "client": "cli000000000006",
+      "discountPercent": 10,
+      "bonusPoints": 300,
+      "issuedAt": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "crd000000000007",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "number": "BS-100007",
+      "client": "cli000000000007",
+      "discountPercent": 0,
+      "bonusPoints": 20,
+      "issuedAt": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "crd000000000008",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "number": "BS-100008",
+      "client": "cli000000000008",
+      "discountPercent": 5,
+      "bonusPoints": 140,
+      "issuedAt": "2026-10-04T00:00:00.000Z"
+    },
+    {
+      "id": "crd000000000009",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "number": "BS-100009",
+      "client": "cli000000000009",
+      "discountPercent": 20,
+      "bonusPoints": 1150,
+      "issuedAt": "2026-10-07T00:00:00.000Z"
+    },
+    {
+      "id": "crd000000000010",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "number": "BS-100010",
+      "client": "cli000000000010",
+      "discountPercent": 0,
+      "bonusPoints": 0,
+      "issuedAt": "2026-10-10T00:00:00.000Z"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "app000000000001",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000004",
+      "master": "mst000000000002",
+      "services": [
+        "srv000000000002"
+      ],
+      "startsAt": "2026-10-09T10:00:00.000Z",
+      "endsAt": "2026-10-09T10:45:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 1200,
+      "comment": "Первый визит"
+    },
+    {
+      "id": "app000000000002",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000005",
+      "master": "mst000000000003",
+      "services": [
+        "srv000000000008"
+      ],
+      "startsAt": "2026-10-09T13:00:00.000Z",
+      "endsAt": "2026-10-09T14:30:00.000Z",
+      "status": "done",
+      "discountPercent": 5,
+      "totalPrice": 2375,
+      "comment": "Постоянный клиент"
+    },
+    {
+      "id": "app000000000003",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000007",
+      "master": "mst000000000005",
+      "services": [
+        "srv000000000014"
+      ],
+      "startsAt": "2026-10-09T09:00:00.000Z",
+      "endsAt": "2026-10-09T09:40:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 1100,
+      "comment": "Просьба не опаздывать"
+    },
+    {
+      "id": "app000000000004",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000008",
+      "master": "mst000000000006",
+      "services": [
+        "srv000000000018"
+      ],
+      "startsAt": "2026-10-09T12:00:00.000Z",
+      "endsAt": "2026-10-09T13:00:00.000Z",
+      "status": "done",
+      "discountPercent": 5,
+      "totalPrice": 2850,
+      "comment": "Аллергия на аммиак"
+    },
+    {
+      "id": "app000000000005",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000010",
+      "master": "mst000000000001",
+      "services": [
+        "srv000000000004"
+      ],
+      "startsAt": "2026-10-10T13:00:00.000Z",
+      "endsAt": "2026-10-10T16:00:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 7500,
+      "comment": ""
+    },
+    {
+      "id": "app000000000006",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000004",
+      "master": "mst000000000005",
+      "services": [
+        "srv000000000013"
+      ],
+      "startsAt": "2026-10-10T06:00:00.000Z",
+      "endsAt": "2026-10-10T06:30:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 900,
+      "comment": ""
+    },
+    {
+      "id": "app000000000007",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000005",
+      "master": "mst000000000002",
+      "services": [
+        "srv000000000002"
+      ],
+      "startsAt": "2026-10-12T10:00:00.000Z",
+      "endsAt": "2026-10-12T10:45:00.000Z",
+      "status": "done",
+      "discountPercent": 5,
+      "totalPrice": 1140,
+      "comment": "Первый визит"
+    },
+    {
+      "id": "app000000000008",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000006",
+      "master": "mst000000000003",
+      "services": [
+        "srv000000000009"
+      ],
+      "startsAt": "2026-10-12T13:00:00.000Z",
+      "endsAt": "2026-10-12T15:30:00.000Z",
+      "status": "done",
+      "discountPercent": 10,
+      "totalPrice": 3420,
+      "comment": "Постоянный клиент"
+    },
+    {
+      "id": "app000000000009",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000008",
+      "master": "mst000000000005",
+      "services": [
+        "srv000000000014"
+      ],
+      "startsAt": "2026-10-12T09:00:00.000Z",
+      "endsAt": "2026-10-12T09:40:00.000Z",
+      "status": "done",
+      "discountPercent": 5,
+      "totalPrice": 1045,
+      "comment": "Просьба не опаздывать"
+    },
+    {
+      "id": "app000000000010",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000009",
+      "master": "mst000000000006",
+      "services": [
+        "srv000000000018"
+      ],
+      "startsAt": "2026-10-12T12:00:00.000Z",
+      "endsAt": "2026-10-12T13:00:00.000Z",
+      "status": "done",
+      "discountPercent": 20,
+      "totalPrice": 2400,
+      "comment": "Аллергия на аммиак"
+    },
+    {
+      "id": "app000000000011",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000001",
+      "master": "mst000000000001",
+      "services": [
+        "srv000000000001"
+      ],
+      "startsAt": "2026-10-13T13:00:00.000Z",
+      "endsAt": "2026-10-13T14:00:00.000Z",
+      "status": "done",
+      "discountPercent": 10,
+      "totalPrice": 1620,
+      "comment": ""
+    },
+    {
+      "id": "app000000000012",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000002",
+      "master": "mst000000000002",
+      "services": [
+        "srv000000000001"
+      ],
+      "startsAt": "2026-10-13T07:00:00.000Z",
+      "endsAt": "2026-10-13T08:00:00.000Z",
+      "status": "done",
+      "discountPercent": 5,
+      "totalPrice": 1710,
+      "comment": ""
+    },
+    {
+      "id": "app000000000013",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000004",
+      "master": "mst000000000004",
+      "services": [
+        "srv000000000012"
+      ],
+      "startsAt": "2026-10-13T12:00:00.000Z",
+      "endsAt": "2026-10-13T12:45:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 2400,
+      "comment": "Первый визит"
+    },
+    {
+      "id": "app000000000014",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000005",
+      "master": "mst000000000005",
+      "services": [
+        "srv000000000013"
+      ],
+      "startsAt": "2026-10-13T06:00:00.000Z",
+      "endsAt": "2026-10-13T06:30:00.000Z",
+      "status": "done",
+      "discountPercent": 5,
+      "totalPrice": 855,
+      "comment": "Постоянный клиент"
+    },
+    {
+      "id": "app000000000015",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000008",
+      "master": "mst000000000001",
+      "services": [
+        "srv000000000005"
+      ],
+      "startsAt": "2026-10-14T10:00:00.000Z",
+      "endsAt": "2026-10-14T10:45:00.000Z",
+      "status": "done",
+      "discountPercent": 5,
+      "totalPrice": 1425,
+      "comment": "Просьба не опаздывать"
+    },
+    {
+      "id": "app000000000016",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000010",
+      "master": "mst000000000003",
+      "services": [
+        "srv000000000007"
+      ],
+      "startsAt": "2026-10-14T07:00:00.000Z",
+      "endsAt": "2026-10-14T08:30:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 2200,
+      "comment": "Аллергия на аммиак"
+    },
+    {
+      "id": "app000000000017",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000001",
+      "master": "mst000000000004",
+      "services": [
+        "srv000000000011"
+      ],
+      "startsAt": "2026-10-14T09:00:00.000Z",
+      "endsAt": "2026-10-14T10:00:00.000Z",
+      "status": "done",
+      "discountPercent": 10,
+      "totalPrice": 3240,
+      "comment": ""
+    },
+    {
+      "id": "app000000000018",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000003",
+      "master": "mst000000000006",
+      "services": [
+        "srv000000000016"
+      ],
+      "startsAt": "2026-10-14T06:00:00.000Z",
+      "endsAt": "2026-10-14T06:45:00.000Z",
+      "status": "done",
+      "discountPercent": 15,
+      "totalPrice": 1700,
+      "comment": ""
+    },
+    {
+      "id": "app000000000019",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000006",
+      "master": "mst000000000002",
+      "services": [
+        "srv000000000002"
+      ],
+      "startsAt": "2026-10-15T10:00:00.000Z",
+      "endsAt": "2026-10-15T10:45:00.000Z",
+      "status": "done",
+      "discountPercent": 10,
+      "totalPrice": 1080,
+      "comment": "Первый визит"
+    },
+    {
+      "id": "app000000000020",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000007",
+      "master": "mst000000000003",
+      "services": [
+        "srv000000000006"
+      ],
+      "startsAt": "2026-10-15T13:00:00.000Z",
+      "endsAt": "2026-10-15T14:00:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 1300,
+      "comment": "Постоянный клиент"
+    },
+    {
+      "id": "app000000000021",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000009",
+      "master": "mst000000000005",
+      "services": [
+        "srv000000000014"
+      ],
+      "startsAt": "2026-10-15T09:00:00.000Z",
+      "endsAt": "2026-10-15T09:40:00.000Z",
+      "status": "done",
+      "discountPercent": 20,
+      "totalPrice": 880,
+      "comment": "Просьба не опаздывать"
+    },
+    {
+      "id": "app000000000022",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000010",
+      "master": "mst000000000006",
+      "services": [
+        "srv000000000018"
+      ],
+      "startsAt": "2026-10-15T12:00:00.000Z",
+      "endsAt": "2026-10-15T13:00:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 3000,
+      "comment": "Аллергия на аммиак"
+    },
+    {
+      "id": "app000000000023",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000002",
+      "master": "mst000000000001",
+      "services": [
+        "srv000000000003"
+      ],
+      "startsAt": "2026-10-16T13:00:00.000Z",
+      "endsAt": "2026-10-16T15:00:00.000Z",
+      "status": "done",
+      "discountPercent": 5,
+      "totalPrice": 4275,
+      "comment": ""
+    },
+    {
+      "id": "app000000000024",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000003",
+      "master": "mst000000000002",
+      "services": [
+        "srv000000000001"
+      ],
+      "startsAt": "2026-10-16T07:00:00.000Z",
+      "endsAt": "2026-10-16T08:00:00.000Z",
+      "status": "done",
+      "discountPercent": 15,
+      "totalPrice": 1530,
+      "comment": ""
+    },
+    {
+      "id": "app000000000025",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000005",
+      "master": "mst000000000004",
+      "services": [
+        "srv000000000012"
+      ],
+      "startsAt": "2026-10-16T12:00:00.000Z",
+      "endsAt": "2026-10-16T12:45:00.000Z",
+      "status": "done",
+      "discountPercent": 5,
+      "totalPrice": 2280,
+      "comment": "Первый визит"
+    },
+    {
+      "id": "app000000000026",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000006",
+      "master": "mst000000000005",
+      "services": [
+        "srv000000000013"
+      ],
+      "startsAt": "2026-10-16T06:00:00.000Z",
+      "endsAt": "2026-10-16T06:30:00.000Z",
+      "status": "done",
+      "discountPercent": 10,
+      "totalPrice": 810,
+      "comment": "Постоянный клиент"
+    },
+    {
+      "id": "app000000000027",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000009",
+      "master": "mst000000000001",
+      "services": [
+        "srv000000000002"
+      ],
+      "startsAt": "2026-10-17T10:00:00.000Z",
+      "endsAt": "2026-10-17T10:45:00.000Z",
+      "status": "done",
+      "discountPercent": 20,
+      "totalPrice": 960,
+      "comment": "Просьба не опаздывать"
+    },
+    {
+      "id": "app000000000028",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000001",
+      "master": "mst000000000003",
+      "services": [
+        "srv000000000008"
+      ],
+      "startsAt": "2026-10-17T07:00:00.000Z",
+      "endsAt": "2026-10-17T08:30:00.000Z",
+      "status": "done",
+      "discountPercent": 10,
+      "totalPrice": 2250,
+      "comment": "Аллергия на аммиак"
+    },
+    {
+      "id": "app000000000029",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000003",
+      "master": "mst000000000001",
+      "services": [
+        "srv000000000005"
+      ],
+      "startsAt": "2026-10-19T13:00:00.000Z",
+      "endsAt": "2026-10-19T13:45:00.000Z",
+      "status": "done",
+      "discountPercent": 15,
+      "totalPrice": 1275,
+      "comment": ""
+    },
+    {
+      "id": "app000000000030",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000004",
+      "master": "mst000000000002",
+      "services": [
+        "srv000000000001"
+      ],
+      "startsAt": "2026-10-19T07:00:00.000Z",
+      "endsAt": "2026-10-19T08:00:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 1800,
+      "comment": ""
+    },
+    {
+      "id": "app000000000031",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000006",
+      "master": "mst000000000004",
+      "services": [
+        "srv000000000012"
+      ],
+      "startsAt": "2026-10-19T12:00:00.000Z",
+      "endsAt": "2026-10-19T12:45:00.000Z",
+      "status": "done",
+      "discountPercent": 10,
+      "totalPrice": 2160,
+      "comment": "Первый визит"
+    },
+    {
+      "id": "app000000000032",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000007",
+      "master": "mst000000000005",
+      "services": [
+        "srv000000000013"
+      ],
+      "startsAt": "2026-10-19T06:00:00.000Z",
+      "endsAt": "2026-10-19T06:30:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 900,
+      "comment": "Постоянный клиент"
+    },
+    {
+      "id": "app000000000033",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000010",
+      "master": "mst000000000001",
+      "services": [
+        "srv000000000004"
+      ],
+      "startsAt": "2026-10-20T10:00:00.000Z",
+      "endsAt": "2026-10-20T13:00:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 7500,
+      "comment": "Просьба не опаздывать"
+    },
+    {
+      "id": "app000000000034",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000002",
+      "master": "mst000000000003",
+      "services": [
+        "srv000000000009"
+      ],
+      "startsAt": "2026-10-20T07:00:00.000Z",
+      "endsAt": "2026-10-20T09:30:00.000Z",
+      "status": "done",
+      "discountPercent": 5,
+      "totalPrice": 3610,
+      "comment": "Аллергия на аммиак"
+    },
+    {
+      "id": "app000000000035",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000003",
+      "master": "mst000000000004",
+      "services": [
+        "srv000000000011"
+      ],
+      "startsAt": "2026-10-20T09:00:00.000Z",
+      "endsAt": "2026-10-20T10:00:00.000Z",
+      "status": "done",
+      "discountPercent": 15,
+      "totalPrice": 3060,
+      "comment": ""
+    },
+    {
+      "id": "app000000000036",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000005",
+      "master": "mst000000000006",
+      "services": [
+        "srv000000000016"
+      ],
+      "startsAt": "2026-10-20T06:00:00.000Z",
+      "endsAt": "2026-10-20T06:45:00.000Z",
+      "status": "done",
+      "discountPercent": 5,
+      "totalPrice": 1900,
+      "comment": ""
+    },
+    {
+      "id": "app000000000037",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000008",
+      "master": "mst000000000002",
+      "services": [
+        "srv000000000002"
+      ],
+      "startsAt": "2026-10-21T10:00:00.000Z",
+      "endsAt": "2026-10-21T10:45:00.000Z",
+      "status": "done",
+      "discountPercent": 5,
+      "totalPrice": 1140,
+      "comment": "Первый визит"
+    },
+    {
+      "id": "app000000000038",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000009",
+      "master": "mst000000000003",
+      "services": [
+        "srv000000000008"
+      ],
+      "startsAt": "2026-10-21T13:00:00.000Z",
+      "endsAt": "2026-10-21T14:30:00.000Z",
+      "status": "done",
+      "discountPercent": 20,
+      "totalPrice": 2000,
+      "comment": "Постоянный клиент"
+    },
+    {
+      "id": "app000000000039",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000001",
+      "master": "mst000000000005",
+      "services": [
+        "srv000000000014"
+      ],
+      "startsAt": "2026-10-21T09:00:00.000Z",
+      "endsAt": "2026-10-21T09:40:00.000Z",
+      "status": "done",
+      "discountPercent": 10,
+      "totalPrice": 990,
+      "comment": "Просьба не опаздывать"
+    },
+    {
+      "id": "app000000000040",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000002",
+      "master": "mst000000000006",
+      "services": [
+        "srv000000000018"
+      ],
+      "startsAt": "2026-10-21T12:00:00.000Z",
+      "endsAt": "2026-10-21T13:00:00.000Z",
+      "status": "done",
+      "discountPercent": 5,
+      "totalPrice": 2850,
+      "comment": "Аллергия на аммиак"
+    },
+    {
+      "id": "app000000000041",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000004",
+      "master": "mst000000000001",
+      "services": [
+        "srv000000000002"
+      ],
+      "startsAt": "2026-10-22T13:00:00.000Z",
+      "endsAt": "2026-10-22T13:45:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 1200,
+      "comment": ""
+    },
+    {
+      "id": "app000000000042",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000005",
+      "master": "mst000000000002",
+      "services": [
+        "srv000000000001"
+      ],
+      "startsAt": "2026-10-22T07:00:00.000Z",
+      "endsAt": "2026-10-22T08:00:00.000Z",
+      "status": "done",
+      "discountPercent": 5,
+      "totalPrice": 1710,
+      "comment": ""
+    },
+    {
+      "id": "app000000000043",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000007",
+      "master": "mst000000000004",
+      "services": [
+        "srv000000000012"
+      ],
+      "startsAt": "2026-10-22T12:00:00.000Z",
+      "endsAt": "2026-10-22T12:45:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 2400,
+      "comment": "Первый визит"
+    },
+    {
+      "id": "app000000000044",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000008",
+      "master": "mst000000000005",
+      "services": [
+        "srv000000000013"
+      ],
+      "startsAt": "2026-10-22T06:00:00.000Z",
+      "endsAt": "2026-10-22T06:30:00.000Z",
+      "status": "done",
+      "discountPercent": 5,
+      "totalPrice": 855,
+      "comment": "Постоянный клиент"
+    },
+    {
+      "id": "app000000000045",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000001",
+      "master": "mst000000000001",
+      "services": [
+        "srv000000000001"
+      ],
+      "startsAt": "2026-10-23T10:00:00.000Z",
+      "endsAt": "2026-10-23T11:00:00.000Z",
+      "status": "done",
+      "discountPercent": 10,
+      "totalPrice": 1620,
+      "comment": "Просьба не опаздывать"
+    },
+    {
+      "id": "app000000000046",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000003",
+      "master": "mst000000000003",
+      "services": [
+        "srv000000000006"
+      ],
+      "startsAt": "2026-10-23T07:00:00.000Z",
+      "endsAt": "2026-10-23T08:00:00.000Z",
+      "status": "done",
+      "discountPercent": 15,
+      "totalPrice": 1105,
+      "comment": "Аллергия на аммиак"
+    },
+    {
+      "id": "app000000000047",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000004",
+      "master": "mst000000000004",
+      "services": [
+        "srv000000000011"
+      ],
+      "startsAt": "2026-10-23T09:00:00.000Z",
+      "endsAt": "2026-10-23T10:00:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 3600,
+      "comment": ""
+    },
+    {
+      "id": "app000000000048",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000006",
+      "master": "mst000000000006",
+      "services": [
+        "srv000000000016"
+      ],
+      "startsAt": "2026-10-23T06:00:00.000Z",
+      "endsAt": "2026-10-23T06:45:00.000Z",
+      "status": "done",
+      "discountPercent": 10,
+      "totalPrice": 1800,
+      "comment": ""
+    },
+    {
+      "id": "app000000000049",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000010",
+      "master": "mst000000000003",
+      "services": [
+        "srv000000000009"
+      ],
+      "startsAt": "2026-10-24T13:00:00.000Z",
+      "endsAt": "2026-10-24T15:30:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 3800,
+      "comment": "Первый визит"
+    },
+    {
+      "id": "app000000000050",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000002",
+      "master": "mst000000000005",
+      "services": [
+        "srv000000000014"
+      ],
+      "startsAt": "2026-10-24T09:00:00.000Z",
+      "endsAt": "2026-10-24T09:40:00.000Z",
+      "status": "done",
+      "discountPercent": 5,
+      "totalPrice": 1045,
+      "comment": "Постоянный клиент"
+    },
+    {
+      "id": "app000000000051",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000002",
+      "master": "mst000000000001",
+      "services": [
+        "srv000000000003"
+      ],
+      "startsAt": "2026-10-26T10:00:00.000Z",
+      "endsAt": "2026-10-26T12:00:00.000Z",
+      "status": "done",
+      "discountPercent": 5,
+      "totalPrice": 4275,
+      "comment": "Просьба не опаздывать"
+    },
+    {
+      "id": "app000000000052",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000004",
+      "master": "mst000000000003",
+      "services": [
+        "srv000000000007"
+      ],
+      "startsAt": "2026-10-26T07:00:00.000Z",
+      "endsAt": "2026-10-26T08:30:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 2200,
+      "comment": "Аллергия на аммиак"
+    },
+    {
+      "id": "app000000000053",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000005",
+      "master": "mst000000000004",
+      "services": [
+        "srv000000000011"
+      ],
+      "startsAt": "2026-10-26T09:00:00.000Z",
+      "endsAt": "2026-10-26T10:00:00.000Z",
+      "status": "done",
+      "discountPercent": 5,
+      "totalPrice": 3420,
+      "comment": ""
+    },
+    {
+      "id": "app000000000054",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000007",
+      "master": "mst000000000006",
+      "services": [
+        "srv000000000016"
+      ],
+      "startsAt": "2026-10-26T06:00:00.000Z",
+      "endsAt": "2026-10-26T06:45:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 2000,
+      "comment": ""
+    },
+    {
+      "id": "app000000000055",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000010",
+      "master": "mst000000000002",
+      "services": [
+        "srv000000000002"
+      ],
+      "startsAt": "2026-10-27T10:00:00.000Z",
+      "endsAt": "2026-10-27T10:45:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 1200,
+      "comment": "Первый визит"
+    },
+    {
+      "id": "app000000000056",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000001",
+      "master": "mst000000000003",
+      "services": [
+        "srv000000000006"
+      ],
+      "startsAt": "2026-10-27T13:00:00.000Z",
+      "endsAt": "2026-10-27T14:00:00.000Z",
+      "status": "done",
+      "discountPercent": 10,
+      "totalPrice": 1170,
+      "comment": "Постоянный клиент"
+    },
+    {
+      "id": "app000000000057",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000003",
+      "master": "mst000000000005",
+      "services": [
+        "srv000000000014"
+      ],
+      "startsAt": "2026-10-27T09:00:00.000Z",
+      "endsAt": "2026-10-27T09:40:00.000Z",
+      "status": "done",
+      "discountPercent": 15,
+      "totalPrice": 935,
+      "comment": "Просьба не опаздывать"
+    },
+    {
+      "id": "app000000000058",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000004",
+      "master": "mst000000000006",
+      "services": [
+        "srv000000000018"
+      ],
+      "startsAt": "2026-10-27T12:00:00.000Z",
+      "endsAt": "2026-10-27T13:00:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 3000,
+      "comment": "Аллергия на аммиак"
+    },
+    {
+      "id": "app000000000059",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000006",
+      "master": "mst000000000001",
+      "services": [
+        "srv000000000001"
+      ],
+      "startsAt": "2026-10-28T13:00:00.000Z",
+      "endsAt": "2026-10-28T14:00:00.000Z",
+      "status": "done",
+      "discountPercent": 10,
+      "totalPrice": 1620,
+      "comment": ""
+    },
+    {
+      "id": "app000000000060",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000007",
+      "master": "mst000000000002",
+      "services": [
+        "srv000000000001"
+      ],
+      "startsAt": "2026-10-28T07:00:00.000Z",
+      "endsAt": "2026-10-28T08:00:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 1800,
+      "comment": ""
+    },
+    {
+      "id": "app000000000061",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000009",
+      "master": "mst000000000004",
+      "services": [
+        "srv000000000012"
+      ],
+      "startsAt": "2026-10-28T12:00:00.000Z",
+      "endsAt": "2026-10-28T12:45:00.000Z",
+      "status": "done",
+      "discountPercent": 20,
+      "totalPrice": 1920,
+      "comment": "Первый визит"
+    },
+    {
+      "id": "app000000000062",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000010",
+      "master": "mst000000000005",
+      "services": [
+        "srv000000000013"
+      ],
+      "startsAt": "2026-10-28T06:00:00.000Z",
+      "endsAt": "2026-10-28T06:30:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 900,
+      "comment": "Постоянный клиент"
+    },
+    {
+      "id": "app000000000063",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000003",
+      "master": "mst000000000001",
+      "services": [
+        "srv000000000005"
+      ],
+      "startsAt": "2026-10-29T10:00:00.000Z",
+      "endsAt": "2026-10-29T10:45:00.000Z",
+      "status": "done",
+      "discountPercent": 15,
+      "totalPrice": 1275,
+      "comment": "Просьба не опаздывать"
+    },
+    {
+      "id": "app000000000064",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000005",
+      "master": "mst000000000003",
+      "services": [
+        "srv000000000008"
+      ],
+      "startsAt": "2026-10-29T07:00:00.000Z",
+      "endsAt": "2026-10-29T08:30:00.000Z",
+      "status": "done",
+      "discountPercent": 5,
+      "totalPrice": 2375,
+      "comment": "Аллергия на аммиак"
+    },
+    {
+      "id": "app000000000065",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000006",
+      "master": "mst000000000004",
+      "services": [
+        "srv000000000011"
+      ],
+      "startsAt": "2026-10-29T09:00:00.000Z",
+      "endsAt": "2026-10-29T10:00:00.000Z",
+      "status": "done",
+      "discountPercent": 10,
+      "totalPrice": 3240,
+      "comment": ""
+    },
+    {
+      "id": "app000000000066",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000008",
+      "master": "mst000000000006",
+      "services": [
+        "srv000000000016"
+      ],
+      "startsAt": "2026-10-29T06:00:00.000Z",
+      "endsAt": "2026-10-29T06:45:00.000Z",
+      "status": "done",
+      "discountPercent": 5,
+      "totalPrice": 1900,
+      "comment": ""
+    },
+    {
+      "id": "app000000000067",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000001",
+      "master": "mst000000000002",
+      "services": [
+        "srv000000000002"
+      ],
+      "startsAt": "2026-10-30T10:00:00.000Z",
+      "endsAt": "2026-10-30T10:45:00.000Z",
+      "status": "done",
+      "discountPercent": 10,
+      "totalPrice": 1080,
+      "comment": "Первый визит"
+    },
+    {
+      "id": "app000000000068",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000002",
+      "master": "mst000000000003",
+      "services": [
+        "srv000000000007"
+      ],
+      "startsAt": "2026-10-30T13:00:00.000Z",
+      "endsAt": "2026-10-30T14:30:00.000Z",
+      "status": "done",
+      "discountPercent": 5,
+      "totalPrice": 2090,
+      "comment": "Постоянный клиент"
+    },
+    {
+      "id": "app000000000069",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000004",
+      "master": "mst000000000005",
+      "services": [
+        "srv000000000014"
+      ],
+      "startsAt": "2026-10-30T09:00:00.000Z",
+      "endsAt": "2026-10-30T09:40:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 1100,
+      "comment": "Просьба не опаздывать"
+    },
+    {
+      "id": "app000000000070",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000005",
+      "master": "mst000000000006",
+      "services": [
+        "srv000000000018"
+      ],
+      "startsAt": "2026-10-30T12:00:00.000Z",
+      "endsAt": "2026-10-30T13:00:00.000Z",
+      "status": "done",
+      "discountPercent": 5,
+      "totalPrice": 2850,
+      "comment": "Аллергия на аммиак"
+    },
+    {
+      "id": "app000000000071",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000007",
+      "master": "mst000000000001",
+      "services": [
+        "srv000000000003"
+      ],
+      "startsAt": "2026-10-31T13:00:00.000Z",
+      "endsAt": "2026-10-31T15:00:00.000Z",
+      "status": "done",
+      "discountPercent": 0,
+      "totalPrice": 4500,
+      "comment": ""
+    },
+    {
+      "id": "app000000000072",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000001",
+      "master": "mst000000000005",
+      "services": [
+        "srv000000000013"
+      ],
+      "startsAt": "2026-10-31T06:00:00.000Z",
+      "endsAt": "2026-10-31T06:30:00.000Z",
+      "status": "done",
+      "discountPercent": 10,
+      "totalPrice": 810,
+      "comment": ""
+    },
+    {
+      "id": "app000000000073",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000002",
+      "master": "mst000000000002",
+      "services": [
+        "srv000000000002"
+      ],
+      "startsAt": "2026-11-02T10:00:00.000Z",
+      "endsAt": "2026-11-02T10:45:00.000Z",
+      "status": "confirmed",
+      "discountPercent": 5,
+      "totalPrice": 1140,
+      "comment": "Первый визит"
+    },
+    {
+      "id": "app000000000074",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000003",
+      "master": "mst000000000003",
+      "services": [
+        "srv000000000008"
+      ],
+      "startsAt": "2026-11-02T13:00:00.000Z",
+      "endsAt": "2026-11-02T14:30:00.000Z",
+      "status": "confirmed",
+      "discountPercent": 15,
+      "totalPrice": 2125,
+      "comment": "Постоянный клиент"
+    },
+    {
+      "id": "app000000000075",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000005",
+      "master": "mst000000000005",
+      "services": [
+        "srv000000000014"
+      ],
+      "startsAt": "2026-11-02T09:00:00.000Z",
+      "endsAt": "2026-11-02T09:40:00.000Z",
+      "status": "confirmed",
+      "discountPercent": 5,
+      "totalPrice": 1045,
+      "comment": "Просьба не опаздывать"
+    },
+    {
+      "id": "app000000000076",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000006",
+      "master": "mst000000000006",
+      "services": [
+        "srv000000000018"
+      ],
+      "startsAt": "2026-11-02T12:00:00.000Z",
+      "endsAt": "2026-11-02T13:00:00.000Z",
+      "status": "confirmed",
+      "discountPercent": 10,
+      "totalPrice": 2700,
+      "comment": "Аллергия на аммиак"
+    },
+    {
+      "id": "app000000000077",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000004",
+      "master": "mst000000000001",
+      "services": [
+        "srv000000000002"
+      ],
+      "startsAt": "2026-11-03T10:00:00.000Z",
+      "endsAt": "2026-11-03T10:45:00.000Z",
+      "status": "confirmed",
+      "discountPercent": 0,
+      "totalPrice": 1200,
+      "comment": ""
+    },
+    {
+      "id": "app000000000078",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000005",
+      "master": "mst000000000002",
+      "services": [
+        "srv000000000005"
+      ],
+      "startsAt": "2026-11-03T13:00:00.000Z",
+      "endsAt": "2026-11-03T13:45:00.000Z",
+      "status": "confirmed",
+      "discountPercent": 5,
+      "totalPrice": 1425,
+      "comment": ""
+    },
+    {
+      "id": "app000000000079",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000007",
+      "master": "mst000000000004",
+      "services": [
+        "srv000000000011"
+      ],
+      "startsAt": "2026-11-03T09:00:00.000Z",
+      "endsAt": "2026-11-03T10:00:00.000Z",
+      "status": "confirmed",
+      "discountPercent": 0,
+      "totalPrice": 3600,
+      "comment": "Первый визит"
+    },
+    {
+      "id": "app000000000080",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000008",
+      "master": "mst000000000005",
+      "services": [
+        "srv000000000015"
+      ],
+      "startsAt": "2026-11-03T12:00:00.000Z",
+      "endsAt": "2026-11-03T13:00:00.000Z",
+      "status": "confirmed",
+      "discountPercent": 5,
+      "totalPrice": 2660,
+      "comment": "Постоянный клиент"
+    },
+    {
+      "id": "app000000000081",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000007",
+      "master": "mst000000000001",
+      "services": [
+        "srv000000000003"
+      ],
+      "startsAt": "2026-11-04T13:00:00.000Z",
+      "endsAt": "2026-11-04T15:00:00.000Z",
+      "status": "new",
+      "discountPercent": 0,
+      "totalPrice": 4500,
+      "comment": "Просьба не опаздывать"
+    },
+    {
+      "id": "app000000000082",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000009",
+      "master": "mst000000000003",
+      "services": [
+        "srv000000000006"
+      ],
+      "startsAt": "2026-11-04T10:00:00.000Z",
+      "endsAt": "2026-11-04T11:00:00.000Z",
+      "status": "new",
+      "discountPercent": 20,
+      "totalPrice": 1040,
+      "comment": "Аллергия на аммиак"
+    },
+    {
+      "id": "app000000000083",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000010",
+      "master": "mst000000000004",
+      "services": [
+        "srv000000000012"
+      ],
+      "startsAt": "2026-11-04T12:00:00.000Z",
+      "endsAt": "2026-11-04T12:45:00.000Z",
+      "status": "new",
+      "discountPercent": 0,
+      "totalPrice": 2400,
+      "comment": ""
+    },
+    {
+      "id": "app000000000084",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000002",
+      "master": "mst000000000006",
+      "services": [
+        "srv000000000017"
+      ],
+      "startsAt": "2026-11-04T09:00:00.000Z",
+      "endsAt": "2026-11-04T10:30:00.000Z",
+      "status": "cancelled",
+      "discountPercent": 5,
+      "totalPrice": 3990,
+      "comment": ""
+    },
+    {
+      "id": "app000000000085",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000001",
+      "master": "mst000000000002",
+      "services": [
+        "srv000000000002"
+      ],
+      "startsAt": "2026-11-05T10:00:00.000Z",
+      "endsAt": "2026-11-05T10:45:00.000Z",
+      "status": "new",
+      "discountPercent": 10,
+      "totalPrice": 1080,
+      "comment": "Первый визит"
+    },
+    {
+      "id": "app000000000086",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000002",
+      "master": "mst000000000003",
+      "services": [
+        "srv000000000007"
+      ],
+      "startsAt": "2026-11-05T13:00:00.000Z",
+      "endsAt": "2026-11-05T14:30:00.000Z",
+      "status": "new",
+      "discountPercent": 5,
+      "totalPrice": 2090,
+      "comment": "Постоянный клиент"
+    },
+    {
+      "id": "app000000000087",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000004",
+      "master": "mst000000000005",
+      "services": [
+        "srv000000000014"
+      ],
+      "startsAt": "2026-11-05T09:00:00.000Z",
+      "endsAt": "2026-11-05T09:40:00.000Z",
+      "status": "cancelled",
+      "discountPercent": 0,
+      "totalPrice": 1100,
+      "comment": "Просьба не опаздывать"
+    },
+    {
+      "id": "app000000000088",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000005",
+      "master": "mst000000000006",
+      "services": [
+        "srv000000000018"
+      ],
+      "startsAt": "2026-11-05T12:00:00.000Z",
+      "endsAt": "2026-11-05T13:00:00.000Z",
+      "status": "new",
+      "discountPercent": 5,
+      "totalPrice": 2850,
+      "comment": "Аллергия на аммиак"
+    },
+    {
+      "id": "app000000000089",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000003",
+      "master": "mst000000000001",
+      "services": [
+        "srv000000000005"
+      ],
+      "startsAt": "2026-11-06T10:00:00.000Z",
+      "endsAt": "2026-11-06T10:45:00.000Z",
+      "status": "new",
+      "discountPercent": 15,
+      "totalPrice": 1275,
+      "comment": ""
+    },
+    {
+      "id": "app000000000090",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000004",
+      "master": "mst000000000002",
+      "services": [
+        "srv000000000005"
+      ],
+      "startsAt": "2026-11-06T13:00:00.000Z",
+      "endsAt": "2026-11-06T13:45:00.000Z",
+      "status": "new",
+      "discountPercent": 0,
+      "totalPrice": 1500,
+      "comment": ""
+    },
+    {
+      "id": "app000000000091",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000006",
+      "master": "mst000000000004",
+      "services": [
+        "srv000000000011"
+      ],
+      "startsAt": "2026-11-06T09:00:00.000Z",
+      "endsAt": "2026-11-06T10:00:00.000Z",
+      "status": "cancelled",
+      "discountPercent": 10,
+      "totalPrice": 3240,
+      "comment": "Первый визит"
+    },
+    {
+      "id": "app000000000092",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000007",
+      "master": "mst000000000005",
+      "services": [
+        "srv000000000015"
+      ],
+      "startsAt": "2026-11-06T12:00:00.000Z",
+      "endsAt": "2026-11-06T13:00:00.000Z",
+      "status": "new",
+      "discountPercent": 0,
+      "totalPrice": 2800,
+      "comment": "Постоянный клиент"
+    },
+    {
+      "id": "app000000000093",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000006",
+      "master": "mst000000000001",
+      "services": [
+        "srv000000000001"
+      ],
+      "startsAt": "2026-11-07T13:00:00.000Z",
+      "endsAt": "2026-11-07T14:00:00.000Z",
+      "status": "new",
+      "discountPercent": 10,
+      "totalPrice": 1620,
+      "comment": "Просьба не опаздывать"
+    },
+    {
+      "id": "app000000000094",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000008",
+      "master": "mst000000000003",
+      "services": [
+        "srv000000000009"
+      ],
+      "startsAt": "2026-11-07T10:00:00.000Z",
+      "endsAt": "2026-11-07T12:30:00.000Z",
+      "status": "cancelled",
+      "discountPercent": 5,
+      "totalPrice": 3610,
+      "comment": "Аллергия на аммиак"
+    },
+    {
+      "id": "app000000000095",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000002",
+      "master": "mst000000000001",
+      "services": [
+        "srv000000000003"
+      ],
+      "startsAt": "2026-11-09T10:00:00.000Z",
+      "endsAt": "2026-11-09T12:00:00.000Z",
+      "status": "cancelled",
+      "discountPercent": 5,
+      "totalPrice": 4275,
+      "comment": ""
+    },
+    {
+      "id": "app000000000096",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000003",
+      "master": "mst000000000002",
+      "services": [
+        "srv000000000005"
+      ],
+      "startsAt": "2026-11-09T13:00:00.000Z",
+      "endsAt": "2026-11-09T13:45:00.000Z",
+      "status": "new",
+      "discountPercent": 15,
+      "totalPrice": 1275,
+      "comment": ""
+    },
+    {
+      "id": "app000000000097",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000005",
+      "master": "mst000000000004",
+      "services": [
+        "srv000000000011"
+      ],
+      "startsAt": "2026-11-09T09:00:00.000Z",
+      "endsAt": "2026-11-09T10:00:00.000Z",
+      "status": "new",
+      "discountPercent": 5,
+      "totalPrice": 3420,
+      "comment": "Первый визит"
+    },
+    {
+      "id": "app000000000098",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000006",
+      "master": "mst000000000005",
+      "services": [
+        "srv000000000015"
+      ],
+      "startsAt": "2026-11-09T12:00:00.000Z",
+      "endsAt": "2026-11-09T13:00:00.000Z",
+      "status": "new",
+      "discountPercent": 10,
+      "totalPrice": 2520,
+      "comment": "Постоянный клиент"
+    },
+    {
+      "id": "app000000000099",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000005",
+      "master": "mst000000000001",
+      "services": [
+        "srv000000000004"
+      ],
+      "startsAt": "2026-11-10T13:00:00.000Z",
+      "endsAt": "2026-11-10T16:00:00.000Z",
+      "status": "new",
+      "discountPercent": 5,
+      "totalPrice": 7125,
+      "comment": "Просьба не опаздывать"
+    },
+    {
+      "id": "app000000000100",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000007",
+      "master": "mst000000000003",
+      "services": [
+        "srv000000000008"
+      ],
+      "startsAt": "2026-11-10T10:00:00.000Z",
+      "endsAt": "2026-11-10T11:30:00.000Z",
+      "status": "new",
+      "discountPercent": 0,
+      "totalPrice": 2500,
+      "comment": "Аллергия на аммиак"
+    },
+    {
+      "id": "app000000000101",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000008",
+      "master": "mst000000000004",
+      "services": [
+        "srv000000000012"
+      ],
+      "startsAt": "2026-11-10T12:00:00.000Z",
+      "endsAt": "2026-11-10T12:45:00.000Z",
+      "status": "new",
+      "discountPercent": 5,
+      "totalPrice": 2280,
+      "comment": ""
+    },
+    {
+      "id": "app000000000102",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000010",
+      "master": "mst000000000006",
+      "services": [
+        "srv000000000017"
+      ],
+      "startsAt": "2026-11-10T09:00:00.000Z",
+      "endsAt": "2026-11-10T10:30:00.000Z",
+      "status": "new",
+      "discountPercent": 0,
+      "totalPrice": 4200,
+      "comment": ""
+    },
+    {
+      "id": "app000000000103",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000009",
+      "master": "mst000000000002",
+      "services": [
+        "srv000000000002"
+      ],
+      "startsAt": "2026-11-11T10:00:00.000Z",
+      "endsAt": "2026-11-11T10:45:00.000Z",
+      "status": "new",
+      "discountPercent": 20,
+      "totalPrice": 960,
+      "comment": "Первый визит"
+    },
+    {
+      "id": "app000000000104",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000010",
+      "master": "mst000000000003",
+      "services": [
+        "srv000000000009"
+      ],
+      "startsAt": "2026-11-11T13:00:00.000Z",
+      "endsAt": "2026-11-11T15:30:00.000Z",
+      "status": "new",
+      "discountPercent": 0,
+      "totalPrice": 3800,
+      "comment": "Постоянный клиент"
+    },
+    {
+      "id": "app000000000105",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000002",
+      "master": "mst000000000005",
+      "services": [
+        "srv000000000014"
+      ],
+      "startsAt": "2026-11-11T09:00:00.000Z",
+      "endsAt": "2026-11-11T09:40:00.000Z",
+      "status": "new",
+      "discountPercent": 5,
+      "totalPrice": 1045,
+      "comment": "Просьба не опаздывать"
+    },
+    {
+      "id": "app000000000106",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000003",
+      "master": "mst000000000006",
+      "services": [
+        "srv000000000018"
+      ],
+      "startsAt": "2026-11-11T12:00:00.000Z",
+      "endsAt": "2026-11-11T13:00:00.000Z",
+      "status": "cancelled",
+      "discountPercent": 15,
+      "totalPrice": 2550,
+      "comment": "Аллергия на аммиак"
+    },
+    {
+      "id": "app000000000107",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000001",
+      "master": "mst000000000001",
+      "services": [
+        "srv000000000001"
+      ],
+      "startsAt": "2026-11-12T10:00:00.000Z",
+      "endsAt": "2026-11-12T11:00:00.000Z",
+      "status": "new",
+      "discountPercent": 10,
+      "totalPrice": 1620,
+      "comment": ""
+    },
+    {
+      "id": "app000000000108",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000002",
+      "master": "mst000000000002",
+      "services": [
+        "srv000000000005"
+      ],
+      "startsAt": "2026-11-12T13:00:00.000Z",
+      "endsAt": "2026-11-12T13:45:00.000Z",
+      "status": "new",
+      "discountPercent": 5,
+      "totalPrice": 1425,
+      "comment": ""
+    },
+    {
+      "id": "app000000000109",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000004",
+      "master": "mst000000000004",
+      "services": [
+        "srv000000000011"
+      ],
+      "startsAt": "2026-11-12T09:00:00.000Z",
+      "endsAt": "2026-11-12T10:00:00.000Z",
+      "status": "new",
+      "discountPercent": 0,
+      "totalPrice": 3600,
+      "comment": "Первый визит"
+    },
+    {
+      "id": "app000000000110",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000005",
+      "master": "mst000000000005",
+      "services": [
+        "srv000000000015"
+      ],
+      "startsAt": "2026-11-12T12:00:00.000Z",
+      "endsAt": "2026-11-12T13:00:00.000Z",
+      "status": "cancelled",
+      "discountPercent": 5,
+      "totalPrice": 2660,
+      "comment": "Постоянный клиент"
+    },
+    {
+      "id": "app000000000111",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000004",
+      "master": "mst000000000001",
+      "services": [
+        "srv000000000002"
+      ],
+      "startsAt": "2026-11-13T13:00:00.000Z",
+      "endsAt": "2026-11-13T13:45:00.000Z",
+      "status": "new",
+      "discountPercent": 0,
+      "totalPrice": 1200,
+      "comment": "Просьба не опаздывать"
+    },
+    {
+      "id": "app000000000112",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000006",
+      "master": "mst000000000003",
+      "services": [
+        "srv000000000007"
+      ],
+      "startsAt": "2026-11-13T10:00:00.000Z",
+      "endsAt": "2026-11-13T11:30:00.000Z",
+      "status": "new",
+      "discountPercent": 10,
+      "totalPrice": 1980,
+      "comment": "Аллергия на аммиак"
+    },
+    {
+      "id": "app000000000113",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000007",
+      "master": "mst000000000004",
+      "services": [
+        "srv000000000012"
+      ],
+      "startsAt": "2026-11-13T12:00:00.000Z",
+      "endsAt": "2026-11-13T12:45:00.000Z",
+      "status": "cancelled",
+      "discountPercent": 0,
+      "totalPrice": 2400,
+      "comment": ""
+    },
+    {
+      "id": "app000000000114",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000009",
+      "master": "mst000000000006",
+      "services": [
+        "srv000000000017"
+      ],
+      "startsAt": "2026-11-13T09:00:00.000Z",
+      "endsAt": "2026-11-13T10:30:00.000Z",
+      "status": "new",
+      "discountPercent": 20,
+      "totalPrice": 3360,
+      "comment": ""
+    },
+    {
+      "id": "app000000000115",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000009",
+      "master": "mst000000000003",
+      "services": [
+        "srv000000000008"
+      ],
+      "startsAt": "2026-11-14T13:00:00.000Z",
+      "endsAt": "2026-11-14T14:30:00.000Z",
+      "status": "cancelled",
+      "discountPercent": 20,
+      "totalPrice": 2000,
+      "comment": "Первый визит"
+    },
+    {
+      "id": "app000000000116",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "client": "cli000000000001",
+      "master": "mst000000000005",
+      "services": [
+        "srv000000000014"
+      ],
+      "startsAt": "2026-11-14T09:00:00.000Z",
+      "endsAt": "2026-11-14T09:40:00.000Z",
+      "status": "new",
+      "discountPercent": 10,
+      "totalPrice": 990,
+      "comment": "Постоянный клиент"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev000000000001",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000001",
+      "client": "cli000000000004",
+      "master": "mst000000000002",
+      "rating": 4,
+      "text": "Всё аккуратно и вовремя."
+    },
+    {
+      "id": "rev000000000002",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000002",
+      "client": "cli000000000005",
+      "master": "mst000000000003",
+      "rating": 5,
+      "text": "Мастер внимательный, приду ещё."
+    },
+    {
+      "id": "rev000000000003",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000004",
+      "client": "cli000000000008",
+      "master": "mst000000000006",
+      "rating": 4,
+      "text": "Отличный сервис и приятная атмосфера."
+    },
+    {
+      "id": "rev000000000004",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000005",
+      "client": "cli000000000010",
+      "master": "mst000000000001",
+      "rating": 5,
+      "text": "Очень довольна результатом, спасибо!"
+    },
+    {
+      "id": "rev000000000005",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000007",
+      "client": "cli000000000005",
+      "master": "mst000000000002",
+      "rating": 4,
+      "text": "Мастер внимательный, приду ещё."
+    },
+    {
+      "id": "rev000000000006",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000008",
+      "client": "cli000000000006",
+      "master": "mst000000000003",
+      "rating": 5,
+      "text": "Хорошо, но пришлось немного подождать."
+    },
+    {
+      "id": "rev000000000007",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000010",
+      "client": "cli000000000009",
+      "master": "mst000000000006",
+      "rating": 4,
+      "text": "Очень довольна результатом, спасибо!"
+    },
+    {
+      "id": "rev000000000008",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000011",
+      "client": "cli000000000001",
+      "master": "mst000000000001",
+      "rating": 5,
+      "text": "Всё аккуратно и вовремя."
+    },
+    {
+      "id": "rev000000000009",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000013",
+      "client": "cli000000000004",
+      "master": "mst000000000004",
+      "rating": 4,
+      "text": "Хорошо, но пришлось немного подождать."
+    },
+    {
+      "id": "rev000000000010",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000014",
+      "client": "cli000000000005",
+      "master": "mst000000000005",
+      "rating": 5,
+      "text": "Отличный сервис и приятная атмосфера."
+    },
+    {
+      "id": "rev000000000011",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000016",
+      "client": "cli000000000010",
+      "master": "mst000000000003",
+      "rating": 4,
+      "text": "Всё аккуратно и вовремя."
+    },
+    {
+      "id": "rev000000000012",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000017",
+      "client": "cli000000000001",
+      "master": "mst000000000004",
+      "rating": 5,
+      "text": "Мастер внимательный, приду ещё."
+    },
+    {
+      "id": "rev000000000013",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000019",
+      "client": "cli000000000006",
+      "master": "mst000000000002",
+      "rating": 4,
+      "text": "Отличный сервис и приятная атмосфера."
+    },
+    {
+      "id": "rev000000000014",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000020",
+      "client": "cli000000000007",
+      "master": "mst000000000003",
+      "rating": 5,
+      "text": "Очень довольна результатом, спасибо!"
+    },
+    {
+      "id": "rev000000000015",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000022",
+      "client": "cli000000000010",
+      "master": "mst000000000006",
+      "rating": 4,
+      "text": "Мастер внимательный, приду ещё."
+    },
+    {
+      "id": "rev000000000016",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000023",
+      "client": "cli000000000002",
+      "master": "mst000000000001",
+      "rating": 5,
+      "text": "Хорошо, но пришлось немного подождать."
+    },
+    {
+      "id": "rev000000000017",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000025",
+      "client": "cli000000000005",
+      "master": "mst000000000004",
+      "rating": 4,
+      "text": "Очень довольна результатом, спасибо!"
+    },
+    {
+      "id": "rev000000000018",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000026",
+      "client": "cli000000000006",
+      "master": "mst000000000005",
+      "rating": 5,
+      "text": "Всё аккуратно и вовремя."
+    },
+    {
+      "id": "rev000000000019",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000028",
+      "client": "cli000000000001",
+      "master": "mst000000000003",
+      "rating": 4,
+      "text": "Хорошо, но пришлось немного подождать."
+    },
+    {
+      "id": "rev000000000020",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000029",
+      "client": "cli000000000003",
+      "master": "mst000000000001",
+      "rating": 5,
+      "text": "Отличный сервис и приятная атмосфера."
+    },
+    {
+      "id": "rev000000000021",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000031",
+      "client": "cli000000000006",
+      "master": "mst000000000004",
+      "rating": 4,
+      "text": "Всё аккуратно и вовремя."
+    },
+    {
+      "id": "rev000000000022",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000032",
+      "client": "cli000000000007",
+      "master": "mst000000000005",
+      "rating": 5,
+      "text": "Мастер внимательный, приду ещё."
+    },
+    {
+      "id": "rev000000000023",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000034",
+      "client": "cli000000000002",
+      "master": "mst000000000003",
+      "rating": 4,
+      "text": "Отличный сервис и приятная атмосфера."
+    },
+    {
+      "id": "rev000000000024",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000035",
+      "client": "cli000000000003",
+      "master": "mst000000000004",
+      "rating": 5,
+      "text": "Очень довольна результатом, спасибо!"
+    },
+    {
+      "id": "rev000000000025",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000037",
+      "client": "cli000000000008",
+      "master": "mst000000000002",
+      "rating": 4,
+      "text": "Мастер внимательный, приду ещё."
+    },
+    {
+      "id": "rev000000000026",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000038",
+      "client": "cli000000000009",
+      "master": "mst000000000003",
+      "rating": 5,
+      "text": "Хорошо, но пришлось немного подождать."
+    },
+    {
+      "id": "rev000000000027",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000040",
+      "client": "cli000000000002",
+      "master": "mst000000000006",
+      "rating": 4,
+      "text": "Очень довольна результатом, спасибо!"
+    },
+    {
+      "id": "rev000000000028",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000041",
+      "client": "cli000000000004",
+      "master": "mst000000000001",
+      "rating": 5,
+      "text": "Всё аккуратно и вовремя."
+    },
+    {
+      "id": "rev000000000029",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000043",
+      "client": "cli000000000007",
+      "master": "mst000000000004",
+      "rating": 4,
+      "text": "Хорошо, но пришлось немного подождать."
+    },
+    {
+      "id": "rev000000000030",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000044",
+      "client": "cli000000000008",
+      "master": "mst000000000005",
+      "rating": 5,
+      "text": "Отличный сервис и приятная атмосфера."
+    },
+    {
+      "id": "rev000000000031",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000046",
+      "client": "cli000000000003",
+      "master": "mst000000000003",
+      "rating": 4,
+      "text": "Всё аккуратно и вовремя."
+    },
+    {
+      "id": "rev000000000032",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000047",
+      "client": "cli000000000004",
+      "master": "mst000000000004",
+      "rating": 5,
+      "text": "Мастер внимательный, приду ещё."
+    },
+    {
+      "id": "rev000000000033",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000049",
+      "client": "cli000000000010",
+      "master": "mst000000000003",
+      "rating": 4,
+      "text": "Отличный сервис и приятная атмосфера."
+    },
+    {
+      "id": "rev000000000034",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000050",
+      "client": "cli000000000002",
+      "master": "mst000000000005",
+      "rating": 5,
+      "text": "Очень довольна результатом, спасибо!"
+    },
+    {
+      "id": "rev000000000035",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000052",
+      "client": "cli000000000004",
+      "master": "mst000000000003",
+      "rating": 4,
+      "text": "Мастер внимательный, приду ещё."
+    },
+    {
+      "id": "rev000000000036",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000053",
+      "client": "cli000000000005",
+      "master": "mst000000000004",
+      "rating": 5,
+      "text": "Хорошо, но пришлось немного подождать."
+    },
+    {
+      "id": "rev000000000037",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000055",
+      "client": "cli000000000010",
+      "master": "mst000000000002",
+      "rating": 4,
+      "text": "Очень довольна результатом, спасибо!"
+    },
+    {
+      "id": "rev000000000038",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000056",
+      "client": "cli000000000001",
+      "master": "mst000000000003",
+      "rating": 5,
+      "text": "Всё аккуратно и вовремя."
+    },
+    {
+      "id": "rev000000000039",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000058",
+      "client": "cli000000000004",
+      "master": "mst000000000006",
+      "rating": 4,
+      "text": "Хорошо, но пришлось немного подождать."
+    },
+    {
+      "id": "rev000000000040",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000059",
+      "client": "cli000000000006",
+      "master": "mst000000000001",
+      "rating": 5,
+      "text": "Отличный сервис и приятная атмосфера."
+    },
+    {
+      "id": "rev000000000041",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000061",
+      "client": "cli000000000009",
+      "master": "mst000000000004",
+      "rating": 4,
+      "text": "Всё аккуратно и вовремя."
+    },
+    {
+      "id": "rev000000000042",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000062",
+      "client": "cli000000000010",
+      "master": "mst000000000005",
+      "rating": 5,
+      "text": "Мастер внимательный, приду ещё."
+    },
+    {
+      "id": "rev000000000043",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000064",
+      "client": "cli000000000005",
+      "master": "mst000000000003",
+      "rating": 4,
+      "text": "Отличный сервис и приятная атмосфера."
+    },
+    {
+      "id": "rev000000000044",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000065",
+      "client": "cli000000000006",
+      "master": "mst000000000004",
+      "rating": 5,
+      "text": "Очень довольна результатом, спасибо!"
+    },
+    {
+      "id": "rev000000000045",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000067",
+      "client": "cli000000000001",
+      "master": "mst000000000002",
+      "rating": 4,
+      "text": "Мастер внимательный, приду ещё."
+    },
+    {
+      "id": "rev000000000046",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000068",
+      "client": "cli000000000002",
+      "master": "mst000000000003",
+      "rating": 5,
+      "text": "Хорошо, но пришлось немного подождать."
+    },
+    {
+      "id": "rev000000000047",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000070",
+      "client": "cli000000000005",
+      "master": "mst000000000006",
+      "rating": 4,
+      "text": "Очень довольна результатом, спасибо!"
+    },
+    {
+      "id": "rev000000000048",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "appointment": "app000000000071",
+      "client": "cli000000000007",
+      "master": "mst000000000001",
+      "rating": 5,
+      "text": "Всё аккуратно и вовремя."
+    }
+  ],
+  "schedules": [
+    {
+      "id": "sch000000000001",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000001",
+      "weekday": "mon",
+      "startTime": "10:00",
+      "endTime": "19:00"
+    },
+    {
+      "id": "sch000000000002",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000001",
+      "weekday": "tue",
+      "startTime": "10:00",
+      "endTime": "19:00"
+    },
+    {
+      "id": "sch000000000003",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000001",
+      "weekday": "wed",
+      "startTime": "10:00",
+      "endTime": "19:00"
+    },
+    {
+      "id": "sch000000000004",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000001",
+      "weekday": "thu",
+      "startTime": "10:00",
+      "endTime": "19:00"
+    },
+    {
+      "id": "sch000000000005",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000001",
+      "weekday": "fri",
+      "startTime": "10:00",
+      "endTime": "19:00"
+    },
+    {
+      "id": "sch000000000006",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000001",
+      "weekday": "sat",
+      "startTime": "10:00",
+      "endTime": "19:00"
+    },
+    {
+      "id": "sch000000000007",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000002",
+      "weekday": "mon",
+      "startTime": "10:00",
+      "endTime": "19:00"
+    },
+    {
+      "id": "sch000000000008",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000002",
+      "weekday": "tue",
+      "startTime": "10:00",
+      "endTime": "19:00"
+    },
+    {
+      "id": "sch000000000009",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000002",
+      "weekday": "wed",
+      "startTime": "10:00",
+      "endTime": "19:00"
+    },
+    {
+      "id": "sch000000000010",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000002",
+      "weekday": "thu",
+      "startTime": "10:00",
+      "endTime": "19:00"
+    },
+    {
+      "id": "sch000000000011",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000002",
+      "weekday": "fri",
+      "startTime": "10:00",
+      "endTime": "19:00"
+    },
+    {
+      "id": "sch000000000012",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000003",
+      "weekday": "mon",
+      "startTime": "10:00",
+      "endTime": "19:00"
+    },
+    {
+      "id": "sch000000000013",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000003",
+      "weekday": "tue",
+      "startTime": "10:00",
+      "endTime": "19:00"
+    },
+    {
+      "id": "sch000000000014",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000003",
+      "weekday": "wed",
+      "startTime": "10:00",
+      "endTime": "19:00"
+    },
+    {
+      "id": "sch000000000015",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000003",
+      "weekday": "thu",
+      "startTime": "10:00",
+      "endTime": "19:00"
+    },
+    {
+      "id": "sch000000000016",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000003",
+      "weekday": "fri",
+      "startTime": "10:00",
+      "endTime": "19:00"
+    },
+    {
+      "id": "sch000000000017",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000003",
+      "weekday": "sat",
+      "startTime": "10:00",
+      "endTime": "19:00"
+    },
+    {
+      "id": "sch000000000018",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000004",
+      "weekday": "mon",
+      "startTime": "09:00",
+      "endTime": "18:00"
+    },
+    {
+      "id": "sch000000000019",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000004",
+      "weekday": "tue",
+      "startTime": "09:00",
+      "endTime": "18:00"
+    },
+    {
+      "id": "sch000000000020",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000004",
+      "weekday": "wed",
+      "startTime": "09:00",
+      "endTime": "18:00"
+    },
+    {
+      "id": "sch000000000021",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000004",
+      "weekday": "thu",
+      "startTime": "09:00",
+      "endTime": "18:00"
+    },
+    {
+      "id": "sch000000000022",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000004",
+      "weekday": "fri",
+      "startTime": "09:00",
+      "endTime": "18:00"
+    },
+    {
+      "id": "sch000000000023",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000005",
+      "weekday": "mon",
+      "startTime": "09:00",
+      "endTime": "18:00"
+    },
+    {
+      "id": "sch000000000024",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000005",
+      "weekday": "tue",
+      "startTime": "09:00",
+      "endTime": "18:00"
+    },
+    {
+      "id": "sch000000000025",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000005",
+      "weekday": "wed",
+      "startTime": "09:00",
+      "endTime": "18:00"
+    },
+    {
+      "id": "sch000000000026",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000005",
+      "weekday": "thu",
+      "startTime": "09:00",
+      "endTime": "18:00"
+    },
+    {
+      "id": "sch000000000027",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000005",
+      "weekday": "fri",
+      "startTime": "09:00",
+      "endTime": "18:00"
+    },
+    {
+      "id": "sch000000000028",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000005",
+      "weekday": "sat",
+      "startTime": "09:00",
+      "endTime": "18:00"
+    },
+    {
+      "id": "sch000000000029",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000006",
+      "weekday": "mon",
+      "startTime": "09:00",
+      "endTime": "18:00"
+    },
+    {
+      "id": "sch000000000030",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000006",
+      "weekday": "tue",
+      "startTime": "09:00",
+      "endTime": "18:00"
+    },
+    {
+      "id": "sch000000000031",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000006",
+      "weekday": "wed",
+      "startTime": "09:00",
+      "endTime": "18:00"
+    },
+    {
+      "id": "sch000000000032",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000006",
+      "weekday": "thu",
+      "startTime": "09:00",
+      "endTime": "18:00"
+    },
+    {
+      "id": "sch000000000033",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "master": "mst000000000006",
+      "weekday": "fri",
+      "startTime": "09:00",
+      "endTime": "18:00"
+    }
+  ],
+  "users": [
+    {
+      "id": "usr000000000001",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "email": "admin@salon.ru",
+      "password": "Admin2026!",
+      "name": "Администратор салона",
+      "role": "admin",
+      "client": "",
+      "master": ""
+    },
+    {
+      "id": "usr000000000002",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "email": "master@salon.ru",
+      "password": "Master2026!",
+      "name": "Орлова Екатерина Андреевна",
+      "role": "master",
+      "client": "",
+      "master": "mst000000000001"
+    },
+    {
+      "id": "usr000000000003",
+      "created": "2026-09-02T23:56:00.871091Z",
+      "updated": "2026-09-02T23:56:00.871091Z",
+      "deletedAt": "",
+      "email": "client@salon.ru",
+      "password": "Client2026!",
+      "name": "Иванова Анна Сергеевна",
+      "role": "client",
+      "client": "cli000000000001",
+      "master": ""
+    }
+  ]
+}

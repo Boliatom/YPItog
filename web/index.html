@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#8b6b3e">
+  <meta name="description" content="Салон красоты: запись на услуги, мастера, клиенты, роли и отчёты. Приложение на Flutter Web.">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Салон красоты">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Салон красоты</title>
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    html, body { margin: 0; height: 100%; }
+    #splash {
+      position: fixed; inset: 0; z-index: 1;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 16px; padding: 24px; box-sizing: border-box; text-align: center;
+      background: #fff8f4; color: #211a14;
+      font-family: Roboto, "Segoe UI", system-ui, sans-serif;
+      transition: opacity .25s ease;
+    }
+    #splash.hidden { opacity: 0; pointer-events: none; }
+    #splash.failed .spinner { display: none; }
+    #splash h1 { margin: 0; font-size: 28px; font-weight: 500; }
+    #splash p { margin: 0; font-size: 15px; color: #6b5d50; max-width: 28em; }
+    #splash .spinner {
+      width: 44px; height: 44px; border-radius: 50%;
+      border: 4px solid #eadfd2; border-top-color: #8b6b3e;
+      animation: splash-spin .9s linear infinite;
+    }
+    @keyframes splash-spin { to { transform: rotate(360deg); } }
+    @media (prefers-color-scheme: dark) {
+      #splash { background: #19120c; color: #ece0d6; }
+      #splash p { color: #d3c4b4; }
+      #splash .spinner { border-color: #4a3d2e; border-top-color: #e1c08f; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      #splash .spinner { animation-duration: 3s; }
+    }
+  </style>
+</head>
+<body>
+  <div id="splash" role="status" aria-live="polite">
+    <div class="spinner" aria-hidden="true"></div>
+    <h1>Салон красоты</h1>
+    <p id="splash-text">Загрузка приложения…</p>
+  </div>
+  <noscript>
+    <p style="padding:24px;font-family:sans-serif">Для работы приложения нужен JavaScript.</p>
+  </noscript>
+
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var splash = document.getElementById('splash');
+      if (!splash) return;
+      splash.classList.add('hidden');
+      setTimeout(function () { splash.remove(); }, 400);
+    });
+    setTimeout(function () {
+      var text = document.getElementById('splash-text');
+      if (text && !document.getElementById('splash').classList.contains('failed')) {
+        text.textContent =
+          'Загрузка идёт дольше обычного. Проверьте подключение к интернету.';
+      }
+    }, 15000);
+    window.addEventListener('error', function (event) {
+      var target = event.target;
+      if (!target || target.tagName !== 'SCRIPT') return;
+      var splash = document.getElementById('splash');
+      if (!splash) return;
+      splash.classList.add('failed');
+      document.getElementById('splash-text').textContent =
+        'Не удалось загрузить приложение. Проверьте подключение к интернету и обновите страницу.';
+      console.error(
+        'Не загружен файл ' + target.src + '. Если сайт размещён в подкаталоге, ' +
+        'проверьте параметр сборки --base-href (сейчас базовый адрес страницы: ' +
+        document.baseURI + ').'
+      );
+    }, true);
+  </script>
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

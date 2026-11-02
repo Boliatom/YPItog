@@ -1,0 +1,86 @@
+name: Сборка и публикация
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+env:
+  FLUTTER_VERSION: "3.47.2"
+
+jobs:
+  build:
+    name: Проверки и сборка
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+
+      - name: Зависимости
+        run: flutter pub get
+
+      - name: Анализатор
+        run: flutter analyze
+
+      - name: Форматирование
+        run: dart format --set-exit-if-changed lib test
+
+      - name: Тесты
+        run: flutter test
+
+      - name: Проверка параметров сборки
+        env:
+          API_BASE_URL: ${{ vars.API_BASE_URL }}
+          BACKEND: ${{ vars.BACKEND || 'persistent' }}
+        run: |
+          if [ "$BACKEND" = "api" ] && [ -z "$API_BASE_URL" ]; then
+            echo "::warning::Не задана переменная API_BASE_URL: опубликованное приложение покажет экран настройки. Задайте адрес API по HTTPS или BACKEND=persistent."
+          fi
+
+      - name: Релизная сборка
+        env:
+          API_BASE_URL: ${{ vars.API_BASE_URL }}
+          BACKEND: ${{ vars.BACKEND || 'persistent' }}
+          USE_WASM: ${{ vars.USE_WASM || 'true' }}
+        run: |
+          WASM=""
+          if [ "$USE_WASM" = "true" ]; then WASM="--wasm"; fi
+          flutter build web --release $WASM \
+            --base-href "/${{ github.event.repository.name }}/" \
+            --dart-define=API_BASE_URL="$API_BASE_URL" \
+            --dart-define=BACKEND="$BACKEND"
+
+      - name: 404.html для прямых ссылок
+        run: cp build/web/index.html build/web/404.html
+
+      - name: .nojekyll
+        run: touch build/web/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/web
+
+  deploy:
+    name: Публикация
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
